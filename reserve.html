@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Page</title>
+    <link rel="stylesheet" href="reserve.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+<div class="ride-container">
+    <h2>Reservation</h2>
+<!-- create form section -->
+    <form class="items">
+        <div class="numbers">
+            <label for="no of guests">No Of Guests:</label>
+            <select name="numbers" id="numbers" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+        <div class="calender">
+            <label for="calender">Set Date:</label>
+            <input type="date" name="date" id="date" placeholder="01/01/2024" required>
+        </div>
+        <div class="time">
+            <label for="time">Set Time:</label>
+            <input type="time" name="time" id="time" required>
+        </div>
+        <div class="cussin">
+            <label for="cussin">Cussin:</label>
+            <select name="cussin" id="cussin" required>
+                <option value="1">Italian</option>
+                <option value="2">USA</option>
+                <option value="3">Chineese</option>
+                <option value="4">Sri Lanka</option>
+            </select>
+        </div>
+    </form>
+
+<!-- create contact details -->
+    <section class="contact">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" placeholder="Ex : Joy James" required>
+
+        <label for="cno">Contact No:</label>
+        <input type="no" id="no" placeholder="+94-7XXXXXXXX" required>
+    </section>
+
+<!-- create pick up & Drop details -->
+    <div class="pickdrop">
+        <div class="pick">
+            <label for="pickup">Pick up place:</label>
+            <input type="text" id="pick" placeholder="ST-03, Colombo" required>
+        </div>
+
+        <div class="drop">
+            <label class="dn" for="drop" >Drop Place:</label>
+            <input class="di" type="text" id="drop" placeholder="Vavuniya Town" required>
+        </div>
+    </div>
+
+    <div class="btn">
+        <button type="submit">Place Order!</button>
+    </div>
+</div>
+    
+</body>
+</html>
