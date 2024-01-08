@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.height{
+    height:100%;
+}
+.img-container {
+    background-image: url(eugene-chystiakov-B-h3so_5UKA-unsplash.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:#fef3c7;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    opacity: 0.9;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 300px;
+    font-size: 100px;
+}
+.midNav-color{
+    background-color: rgba(12, 10, 9, 0.8);
+    justify-content: center;
+}
+
+.midNav-ul a{
+    text-decoration: none;
+    color:#fef3c7;
+}
+.midNav-ul a:hover{
+    color:#fbbf24;
+}
+.top-col{
+    padding:50px;
+}
+.top-row{
+    background-color: #fef3c7;
+}
+
+.achievement-container{
+    color: #fef3c7;
+    background-color: #0c0a09;
+    padding-bottom: 50px;
+}
+.achieve-row{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: auto;
+    padding-right: auto;
+}
+.achievecard-row{
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.card{
+    background-color: rgba(252, 211, 77, 0.7);
+    font-weight: bold;
+}
