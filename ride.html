@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ride.css">
+</head>
+<body>
+
+        <h2>Reservation Form</h2>
+    
+        <!-- Reservation Form -->
+        <form class="reservation-form">
+            <!-- First Section: Reservation Details -->
+            <div class="form-section1">
+                <label for="guests">Number of Guests:</label>
+                <select id="guests" name="guests" class="dr">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <!-- Add more options as needed -->
+                </select>
+    
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+    
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+    
+                <label for="cuisine">Cuisine:</label>
+                <select id="cuisine" name="cuisine" class="dr">
+                    <option value="italian">Italian</option>
+                    <option value="mexican">Mexican</option>
+                    <option value="chinese">Chinese</option>
+                    <!-- Add more options as needed -->
+                </select>
+            </div>
+                <!-- Second Section: Contact Details -->
+                <div class="form-section">
+                    <label for="contactName">Contact Name:</label>
+                    <input type="text" id="contactName" name="contactName" placeholder="ex:Joy" required>
+                    
+                    <label for="contactnumber">Contact Number:</label>
+                    <input type="number" id="contactnumber" name="contactnumber" placeholder="+94-xxxxxxxx" required>
+                </div> 
+                <div class="contacts">
+                    <label for="pickup">Pic up location:</label>
+                    <input type="text" id="pickup" name="pickup" placeholder="Colombo" required>
+
+                    <label for="Drop">Drop location:</label>
+                    <input type="text" id="drop" name="drop" placeholder="Galle">
+                </div>                  
+            
+        </form>
+</body>
+</html>
