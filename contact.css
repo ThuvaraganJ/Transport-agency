@@ -1,0 +1,47 @@
+*{
+    font-family: ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg,#0e3959 0%,#0e3959 30%,rgb(85, 196, 230)30%,rgb(85, 196, 230)100% );
+}
+.contactus {
+    position: relative;
+    
+    padding:40px 100px ;
+    width: 100%;
+}
+.contactus .title{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    font-size: 2em;
+
+}
+.contactus .title h2{
+    color: beige;
+    font-weight: 500;
+}
+
+    
+.form{
+    grid-area:form ;
+}
+.info{info
+    grid-area:info ;
+}
+.map{
+    grid-area: map;
+}
+.contact{
+    padding: 40px;
+    background-color: beige;
+}
+.box{
+    position: relative;
+    display: grid;
+    grid-template-columns:2fr 1fr ;
+    grid-template-rows: 5fr 4fr;
+}
