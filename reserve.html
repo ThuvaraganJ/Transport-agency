@@ -8,10 +8,13 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 <body>
-<div class="ride-container">
+<div class="ride-container container-fluid">
     <h2>Reservation</h2>
+    <div class="intro">
+        <h3></h3>
+    </div>
 <!-- create form section -->
-    <form class="items">
+    <form class="items container-fluid">
         <div class="numbers">
             <label for="no of guests">No Of Guests:</label>
             <select name="numbers" id="numbers" required>
@@ -21,7 +24,7 @@
                 <option value="4">4</option>
             </select>
         </div>
-        <div class="calender">
+        <div class="calender container-fluid">
             <label for="calender">Set Date:</label>
             <input type="date" name="date" id="date" placeholder="01/01/2024" required>
         </div>

@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(#ffa80f, #fff600);
     height: 100vh;
     /* -webkit-backdrop-filter: blur(80px); */
     font-family: 'Poppins';font-size: 20px;
 }
 .ride-container{
+    background: linear-gradient(#ffa80f, #fff600);
+    background-position: cover;
+
     margin-top: 5rem;
     /* background-image: url(02.jpg); */
     /* background-position: bottom; */
@@ -82,4 +84,21 @@ input{
     border-color: transparent;
     text-align: center;
     font-size: 14px;
+}
+
+@media (max-width: 576px){
+    .ride-container{
+        display: block;
+        flex-direction: column;
+        width: 100%;
+    }
+    .ride-container .items{
+        flex-direction: column;
+        background-color: red;
+        margin-inline: 2rem;
+    }
+    .ride-container .items label{
+        display: block;
+        justify-content: flex-start;
+    }
 }
