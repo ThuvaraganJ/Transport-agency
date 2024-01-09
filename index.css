@@ -1,0 +1,111 @@
+
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(white,yellow);
+    height: 100vh;
+   
+    
+   }
+   .img1{
+    justify-content: space-between;
+    display: flex; 
+    width: 40PX;
+    height: 40PX;
+   }
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+   
+    
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+   
+
+}
+nav li{
+    padding: 10px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+ nav h2{
+    padding: 8px;
+    margin-left: 20px;
+   
+
+}
+nav li a:hover{
+    background-color: bisque;
+    padding:12px;
+    font-size: large;
+    transition: 1.5s;
+    transform: scale(1);
+    
+}
+.footer container{
+    width: 100%;
+    padding: 70px 30px 20px ;
+    justify-content: space-between;
+  }
+  .socialIcons{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .footerNav{
+    margin: 30PX ;
+    bottom: 100px;
+    text-decoration: none;
+    
+    
+    
+ }
+ .footerNav ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+ }
+ .footerNav ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    text-decoration: none;
+ }
+ .fotterbottam{
+    background-color: rgb(81, 78, 74);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+ }
+.img2{
+    height:px;
+    position: absolute;
+    left: 1000PX;
+    top: 100PX;
+    background-color: rgb(246, 240, 240);
+    height: 0px;
+ 
+}
+
+.contant{
+    margin: top;
+}
+.heading{
+  margin-left: 100px;
+}
