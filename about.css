@@ -6,7 +6,90 @@
     padding: 0px;
     margin: 0px;
 }
+/* Header Work */
+.navbarWidth {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
 
+.navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #000000;
+    
+}
+
+.navLink .activated {
+    width: 60px;
+    background-color: #22c55e;
+    border-radius: 5px;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: white;
+    justify-content: center;
+}
+
+.nav-item {
+    margin-left: 30px;
+    color: white;
+}
+
+.backColor {
+    background-color:transparent;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    color: #ecfeff;
+    font-weight: 500;
+    padding-top: -100px;
+    border: 1px solid #909918;
+}
+
+.backColor:hover {
+    color: #ecfeff;
+}
+
+@media (max-width: 768px) {
+    .backColor {
+        width: 100%;
+    }
+
+    .navLink .activated {
+        background-color: transparent;
+        box-shadow: none;
+        color: white;
+    }
+
+    .nav-link:hover {
+        font-weight: bold;
+        color: white;
+    }
+
+    .nav-item {
+        padding-top: 15px;
+        color: white;
+    }
+
+    .space {
+        margin-top: 20px;
+    }
+
+    .navbar-toggler {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .navbar {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+/* navbar end */
 .height{
     height:auto;
 }
@@ -34,6 +117,7 @@
 .midNav-color{
     background-color: rgba(12, 10, 9, 0.8);
     justify-content: center;
+    margin-top: 50px;
 }
 
 .midNav-ul a{
@@ -149,4 +233,186 @@
 }
 .operation-container .operation-one p{
     padding-top: 50px;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+.main-card{
+    padding-top: 40px;
+    height: 130vh;
+    background: linear-gradient(to right bottom, #052e16, black);
+    margin-bottom: -150px;
+}
+
+.align-card{
+    padding-top: 200px;
+}
+/*** Button ***/
+.btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    color: #FFFFFF;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 2px;
+}
+
+.align-top{
+    margin-top: -50px;
+}
+/*** Footer ***/
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 2px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+    border-color: var(--light);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .form-control {
+    border-color: rgba(255,255,255,0.5);
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+.img1{
+    width: 500px;
+    height:500px;
+    margin-bottom: 100px;
+}
+.align{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    margin-top: 235px;
+}
+.text1{
+    margin-top: 120px;
+    margin-left: 0;
+    color: aliceblue;
+
+}
+.text1 h2{
+    font-size: 80px;
+}
+.text2{
+    margin-top: 190px;
+    color: aliceblue;
+
+}
+.text2 h2{
+    font-size: 80px;
+}
+.img2{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 250px;
+}
+.text3{
+    margin-top: 160px;
+    margin-left: 0;
+    color: rgb(10, 11, 11);
+
+}
+.text3 h2{
+    font-size: 80px;
+}
+.text4{
+    margin-top: 160px;
+    margin-left: 0;
+    color: rgb(83, 27, 5);
+
+}
+.text4 h2{
+    font-size: 80px;
+}
+.link{
+    color: black;
 }
