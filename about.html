@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="about.css">
+        <script src="about.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="navbarWidth">
-                <nav class="navbar navbar-expand-lg fixed-top ">
+                <nav class="navbar navbar-expand-lg fixed-top" id="navbar1">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
                             <img src="123.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top rounded-circle mt-0">
@@ -44,11 +45,25 @@
                 </nav>
             </header>
     <main>
-        <nav id="navbar-example2" class="navbar px-3 midNav-color fixed-top">
+        <section>
+            <div class="img-container">
+                <div class="centered">About Us</div>
+            </div>
+            <div class="container-fluid">
+                <div class="row top-row">
+                    <div class="col top-col fs-5">
+                        <p><b>24/7 Transport Service</b> is the official brand of Digital Mobility Solutions Lanka (PVT) Ltd., a software service provider, founded in June 2015.</p>
+                    </div>
+                    <div class="col top-col fs-6">
+                        <p>As the market leader and Sri Lanka's most successful start-up business in recent times, we envision the intelligent upgrade of the local transportation industry; consequently inspiring Sri Lanka towards matching global standards in effective problem solving via technology.</p>
+                        <p>PickMe is the proud product of this vision, instilled by our leadership that comprises the enterprisingly youthful and highly accomplished, and realized by talent warehoused at our headquarters in Colombo, Sri Lanka.</p>
+                        <p>The PickMe software is a platform that facilitates a real-time connection between the taxi passenger and the taxi driver, enabling mutual engagement for the receipt and delivery of a seamless service.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <nav id="navbar-example2" class="navbar px-3 midNav-color">
                 <ul class="nav midNav-ul">
-                    <li class="nav-item">
-                            <a class="nav-link" href="#scrollspyHeading0">24/7</a>
-                    </li>
                     <li class="nav-item">
                             <a class="nav-link" href="#scrollspyHeading1">Our Achievements</a>
                     </li>
@@ -79,27 +94,8 @@
                     </ul>
         </nav>
         <section> 
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px 0px 0px" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-            <section id="scrollspyHeading0" class="height">
-                <section>
-            <div class="img-container">
-                <div class="centered">About Us</div>
-            </div>
-            <div class="container-fluid">
-                <div class="row top-row">
-                    <div class="col top-col fs-5">
-                        <p><b>24/7 Transport Service</b> is the official brand of Digital Mobility Solutions Lanka (PVT) Ltd., a software service provider, founded in June 2015.</p>
-                    </div>
-                    <div class="col top-col fs-6">
-                        <p>As the market leader and Sri Lanka's most successful start-up business in recent times, we envision the intelligent upgrade of the local transportation industry; consequently inspiring Sri Lanka towards matching global standards in effective problem solving via technology.</p>
-                        <p>PickMe is the proud product of this vision, instilled by our leadership that comprises the enterprisingly youthful and highly accomplished, and realized by talent warehoused at our headquarters in Colombo, Sri Lanka.</p>
-                        <p>The PickMe software is a platform that facilitates a real-time connection between the taxi passenger and the taxi driver, enabling mutual engagement for the receipt and delivery of a seamless service.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-            </section>
-            <section id="scrollspyHeading1" class="height achievement-container">
+        <div data-bs-spy="scroll" data-bs-target=".scrollspy-example" data-bs-offset="0" class="scrollspy-example" tabindex="0"></div>
+            <section id="scrollspyHeading1" class="height achievement-container centered-content">
                 <div class="container-fluid">
                     <div class="row achieve-row">
                         <h2>Our Achievements</h2>
@@ -116,9 +112,14 @@
                                 <p class="card-text">Rs. 1 Billion in revenues and achieving profitability in a short period of time.</p>
                             </div>
                         </div>
+                        <div class="card card-one" style="width: 18rem;">
+                            <div class="card-body card-content">
+                                <p class="card-text">Doubled growth every month for the first year of operations – the fastest growing local company in Sri Lanka.</p>
+                            </div>
+                        </div>
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
-                                <p class="card-text">Doubled growth every month for the first year of operations – the fastest growing local company in Sri Lanka.</p>
+                                <p class="card-text">Grew from initial team of three to current headcount of 180 – resulting in us moving to three different headquarters since inception.</p>
                             </div>
                         </div>
                         <div class="card" style="width: 18rem;">
@@ -129,7 +130,7 @@
                     </div>
                 </div>
             </section>
-            <section id="scrollspyHeading2" class="height core-container">
+            <section id="scrollspyHeading2" class="height core-container centered-content">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col fs-5 core">
@@ -144,7 +145,7 @@
                     </div>
                 </div>
             </section>
-            <section id="scrollspyHeading3" class="height">
+            <section id="scrollspyHeading3" class="height centered-content">
                 <div class="container-fluid text-left history-container">
                 <div class="row">
                     <div class="col history-one">
@@ -166,7 +167,7 @@
                 </div>
                 </div>
             </section>
-            <section id="scrollspyHeading4" class="height">
+            <section id="scrollspyHeading4" class="height centered-content">
                 <div class="container-fluid text-left operation-container">
                 <div class="row">
                     <div class="col operation-one">
@@ -184,19 +185,19 @@
                     </div>
                 </div>
             </section>
-            <section id="scrollspyHeading5" class="height">
+            <section id="scrollspyHeading5" class="height centered-content">
                 <!-- Content for this section -->
             </section>
-            <section id="scrollspyHeading6" class="height">
+            <section id="scrollspyHeading6" class="height centered-content">
                 <!-- Content for this section -->
             </section>
-            <section id="scrollspyHeading7" class="height">
+            <section id="scrollspyHeading7" class="height centered-content">
                 <!-- Content for this section -->
             </section>
-            <section id="scrollspyHeading8" class="height">
+            <section id="scrollspyHeading8" class="height centered-content">
                 <!-- Content for this section -->
             </section>
-            <section id="scrollspyHeading9" class="height">
+            <section id="scrollspyHeading9" class="height centered-content">
                 <!-- Content for this section -->
             </section>
         </div>
@@ -268,6 +269,7 @@
          <a href="#" class="btn btn-lg btn-success btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
         </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
